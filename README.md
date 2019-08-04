@@ -1,5 +1,8 @@
 # DotsonCrosson
-Model experiments and observation of seasonal grounding-line changes in response to seasonal thermocline changes.
+Model experiments and observations of seasonal grounding-line change in response to seasonal thermocline changes.
+
+# Background
+Tropic sea surface temperatures have been linked to near surface wind stresses just off the shelf break in front of the Amundsen Sea. These tropically teleconnected Westerly wind patterns affect the thermocline depth beneath the ice shelf and the amount of deep circumpolar deep water that can melt the shelf cavity walls.
 
 # Model Workflow
 
