@@ -6,21 +6,21 @@ Tropical sea surface temperatures have been linked to near surface wind stresses
 
 
 # Hypothesis
-The seasonal ice velocity variations we observe across the Crosson and Dotson shelves is caused by seasonal movement of the grounding line due to seasonal melt.
+The seasonal ice velocity variations we observe across the Crosson and Dotson shelves are caused by movement of the grounding line due to seasonal melt.
 
 # Model Workflow
 
 
 ## Diagnostic runs
-1) First, we aggregate data for inversions of the ice fluidity parameter (rate factor) and basal resistance. These include Mathieu's latest bed-machine product, which matches gravity inversions for coastal bathymetry, surface elevation data from REMA and Cryosat-2, surface velocities from Ian Joughin, and depth variable meltrates derived from a power lay temperature relation and glider data. If we are able to make our own inversion of the bed topography in front of Crosson and Dotson all the better; however, these beds should be consistent with the cavity bathymetry we've mapped out with gliders (this is potentially a whole separate project).
+1) First, we aggregate data for inversions of the ice fluidity parameter (rate factor) and basal resistance. These include Mathieu's latest bed-machine product, which matches gravity inversions for coastal bathymetry, surface elevation data from REMA and Cryosat-2, surface velocities from Ian Joughin, and depth variable ocean meltrates derived from a power lay temperature relation and glider data. If we are able to make our own inversion of the bed topography in front of Crosson and Dotson all the better; however, these beds should be consistent with the cavity bathymetry we've mapped out with gliders (this is potentially a whole separate project).
 
-Our hypothesis predicts that the smith, pope and kolher glacier grounding lines are modulated by seasonal melt rates and that there should be a lag between the grounding line response and ocean forcing that we cannot easily detect in quarterly averaged velocity products. To better constrain these two signals we will initialize teh
+Our hypothesis predicts that the smith, pope and kolher glacier grounding lines are modulated by seasonal melt rates and that there should be a lag between the grounding line response and ocean forcing that we cannot easily detect in quarterly averaged velocity products. To better constrain these two signals we will:
 
 2) Invert for basal resistance using both an effective pressure dependent friction law and a weertman sliding law assuming advected WAIS divide temperatures at the boundary (allow temperature to evolve to steady state).
 
 3) Solve for distributed fluidity parameter assuming new basal resistance field then reinvert for final basal resistance assuming the "more consistent" fluidity parameter.
 
-(all of these steps are done with quarterly velocity products when melt rates are their slowest and the groundingline is at it's furthest extent -likely the first quarter of the first year of available velocities-January of 2015).
+(these steps are done with quarterly velocity products when melt rates are their slowest and the groundingline is at it's furthest extent -likely the first quarter of the first year of available velocities-January of 2015).
 
 ## Prognostic runs
 
