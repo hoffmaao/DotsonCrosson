@@ -16,7 +16,7 @@ The seasonal ice velocity variations we observe across the Crosson and Dotson sh
 
 Our hypothesis predicts that the smith, pope and kolher glacier grounding lines are modulated by seasonal melt rates and that there should be a lag between the grounding line response and ocean forcing that we cannot easily detect in quarterly averaged velocity products. To better constrain these two signals we will:
 
-2) Invert for basal resistance using both an effective pressure dependent friction law and a weertman sliding law assuming advected WAIS divide temperatures at the boundary (allow temperature to evolve to steady state).
+2) Invert for basal resistance using an effective pressure dependent friction assuming advected WAIS divide temperatures at the boundary (allow temperature to evolve to steady state).
 
 3) Solve for distributed fluidity parameter assuming new basal resistance field then reinvert for final basal resistance assuming the "more consistent" fluidity parameter.
 
@@ -24,9 +24,9 @@ Our hypothesis predicts that the smith, pope and kolher glacier grounding lines 
 
 ## Prognostic runs
 
-Use time series of sub-shelf temperatures from 2018-2019 observations to force melt in the cavity and model any modulating affect these meltrates have on grounding line position.
-
-We can then compare high frequency grounding-line response predicted by simple models (i.e. linearized marine outlet glacier model with prograde bed; Robel et al. 2018) with the power spectra predicted by our more sophisticated model of outlet glacier response.
+We will use time series of sub-shelf temperatures from 2018-2019 observations to force melt in the cavity and model any modulating affect these meltrates have on grounding line position.
+We will then run an ensemble of ice sheet model experiments for the Dotson-Crosson catchment using synthetic seasonal signals driven by the process-based mixing model and multi-decadal variability in the relaxed thermocline height.
+These experiments will explore the nonlinear effect of seasonal melt on the grounding zone flux and compare seasaonally forced grounding zone retreat with retreat rates forced with melt rate parameterizations derived from summer observations alone.
 
 
 
